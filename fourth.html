@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anchor Navigation without Refresh</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="home" class="page">
+    <h1>Home Page</h1>
+    <p>Welcome to the home page!</p>
+  </div>
+
+  <div id="about" class="page" style="display:none;">
+    <h1>About Page</h1>
+    <p>Welcome to the about page!</p>
+  </div>
+
+  <div id="contact" class="page" style="display:none;">
+    <h1>Contact Page</h1>
+    <p>Welcome to the contact page!</p>
+  </div>
+
+  <script>
+    // // Get all navigation links
+    // const navLinks = document.querySelectorAll('.nav-link');
+
+
+
+    // // Attach event listeners to each link
+    // navLinks.forEach(link => {
+    //   link.addEventListener('click', function(event) {
+    //     event.preventDefault(); // Prevent page refresh
+        
+    //     // Hide all pages
+    //     document.querySelectorAll('.page').forEach(page => page.style.display = 'none');
+        
+    //     // Get the target page ID from the href attribute
+    //     const targetPage = document.querySelector(this.getAttribute('href'));
+        
+    //     // Show the target page
+    //     targetPage.style.display = 'block';
+    //   });
+    // });
+
+    
+
+    
+
+  </script>
+</body>
+</html>
