@@ -29,7 +29,7 @@ User(101).then(yye=>console.log(yye)).catch(e=>console.log(e))
 const A=async()=>{
     try{
         let a= await fetch("https://dummyjson.com/products")
-        
+
         let b=a.json();
         console.log(b)
 
@@ -39,6 +39,13 @@ const A=async()=>{
     }
 }
 A();
+
+
+function B2(a){
+    console.log(a)
+
+}
+B2(10);
 
 
 
