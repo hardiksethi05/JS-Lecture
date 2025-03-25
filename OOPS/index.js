@@ -15,5 +15,6 @@ class Person {
 let data1 = new Person('John', 30, "FBD");
 let data2 = new Person('Hardik', 24,  "Palwal");
 let data3= new Person("Kartik",40,"JAIPUR")
+let data4 = new Person("Karan",50,"Raipur")
  
 data2.greet()
